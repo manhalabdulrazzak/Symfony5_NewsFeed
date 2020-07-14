@@ -1,0 +1,24 @@
+h1{
+    font-size: 20px;
+    margin: 0;
+}
+label{
+    display: block;
+    margin: 1rem 0 0 0;
+}
+.thumbnail{
+    display: block;
+    /*margin: auto;*/
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+}
+.article_list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.article_list img{
+    object-fit: cover;
+    height: 15rem;
+}
